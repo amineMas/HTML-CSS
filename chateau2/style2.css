@@ -1,0 +1,136 @@
+body
+{
+    margin: 0 auto;
+}
+
+.container
+{
+    background-color: black transparent ;  /*#f2f2f2*/
+    height: 500px;
+    width: 600px;
+    position : relative;
+    left : 300px;
+    top : 100px;
+}
+
+.gros-rectangle
+{
+    background-color: black;
+    height: 200px;
+    width: 500px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    z-index: auto;
+}
+
+.tour
+{
+    background-color: black;
+    width: 100px;
+    height: 160px;
+    position: absolute;
+    top: 140px;
+}
+
+.left
+{
+    left: 50px;
+}
+
+.fenetre-left
+{
+    background-color: white;
+    height: 60px;
+    width: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+
+.right
+{
+    right: 50px;
+}
+
+.fenetre-right
+{
+    background-color: white;
+    height: 60px;
+    width: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top: 60px;
+    right: 30px;
+}
+
+.porte
+{
+    background-color: white;
+    height: 120px;
+    width: 80px;
+    border-top-left-radius: 40px ;
+    border-top-right-radius: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 260px;
+}
+
+.rectangle
+{
+    background-color: black;
+    height: 60px;
+    width: 80px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: 260px;
+    z-index: -1;
+}
+
+.gauche
+{
+    left: 130px;
+}
+
+.centre
+{
+    left: 260px;
+
+}
+
+.droite
+{
+    right: 130px;
+}
+
+.triangle
+{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 60px 100px 60px;
+    border-color: transparent transparent black transparent;
+    position: absolute;
+    top: 40px;
+}
+
+.tour-g
+{
+    left: 40px;
+}
+
+.tour-d
+{
+    right: 40px;
+}
